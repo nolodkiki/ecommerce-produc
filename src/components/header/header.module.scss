@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  &_left{
+    display: flex;
+    align-items: center;
+  }
+  &_right{
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .menu {
+        margin-top: 5px;
+        margin-right: 10px;
+      }
+  .avatar {
+        height: 25px;
+        margin-left: 10px;
+      }
+    }
+
+
